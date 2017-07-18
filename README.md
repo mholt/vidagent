@@ -13,7 +13,7 @@ You provide an input file, and output filename, and a filter file. Filter files 
 
 ## Requirements
 
-This program requires [ffmpeg](https://www.ffmpeg.org/) to be installed with its binary in your PATH.
+This program requires [ffmpeg](https://www.ffmpeg.org/) to be installed with its command in your PATH.
 
 On Mac, `brew install ffmpeg` will do. For Ubuntu, `apt install ffmpeg` works. On Windows, [download ffmpeg](https://www.ffmpeg.org/download.html) from its website.
 
@@ -24,7 +24,7 @@ On Mac, `brew install ffmpeg` will do. For Ubuntu, `apt install ffmpeg` works. O
 go get github.com/mholt/vidagent/cmd/vidagent
 ```
 
-VidAgent is pure Go, so it cross-compiles easily. You DO need to have `ffmpeg` installed, however.
+VidAgent is pure Go, so it cross-compiles easily. `ffmpeg` is NOT required for compilation.
 
 
 ## Usage
